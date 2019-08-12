@@ -1,0 +1,49 @@
+.group4{
+    background: url(../images/img9.png);
+    @include backgroundImg;
+    background-attachment: fixed;
+    padding: 10% 0;
+    font-family: $primary-fonts;
+    .title{
+        background: $textOverlay;
+        border-bottom: 1px solid #fff;
+        h3{
+            font-family: $secondary-fonts;
+            font-size: 70px;
+            text-align: center;
+            color: $colorTextTitle1;
+            padding-top: 4%;
+        }
+        p{
+            text-transform: uppercase;
+            font-size: 48px;
+            color: $colorTextTitle2;
+            text-align: center;
+            margin-top: -3%
+        }
+        
+    }
+    .one-food{
+        text-align: center;
+        .info-food{
+            color: #304751;
+            background: $textOverlay;
+            padding: 5%!important;
+            h4{
+                text-transform: uppercase;
+                font-family: $primary-fontsBold;
+                padding-bottom: 13%;
+            }
+            p {
+                padding-bottom: 8%;
+            }
+
+        }
+    }
+    img{
+        width: 100%;
+    }
+    .no-padding [class*='col-'] {
+        padding: 0px;
+    }
+}

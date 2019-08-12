@@ -1,0 +1,302 @@
+@include mediaXl {
+}
+
+@include mediaLg {
+  .group4 {
+    .one-food .info-food {
+      h4 {
+        font-size: 1.5vw;
+        padding-bottom: 10%;
+      }
+      p {
+        padding-bottom: 5%;
+      }
+    }
+  }
+  .group6 {
+    .text {
+      .one-col {
+        .icon {
+          width: 50px;
+          height: 50px;
+          img {
+            height: 100%;
+            margin-top: 2%;
+          }
+        }
+      }
+    }
+  }
+  .group7 {
+    .left-col,
+    .right-col {
+        p{
+            padding-left: 32px;
+        }
+      
+    }
+  }
+}
+@include mediaMd {
+  .group1 {
+    .navbar {
+      @include navbarSmall;
+    }
+    .text {
+      padding-bottom: 20% !important;
+    }
+  }
+  .group2 {
+    .text-left {
+      padding-top: 8%;
+      h3 {
+        font-size: 25px;
+      }
+    }
+  }
+  .group3 {
+    padding-bottom: 5%;
+    .col1 {
+      padding-bottom: 0px;
+      .icon,
+      h3 {
+        padding-bottom: 8%;
+      }
+    }
+  }
+  .group4 {
+    .one-food .info-food {
+      h4 {
+        font-size: 1.5vw;
+        padding-bottom: 2%;
+      }
+      p {
+        font-size: 1.3vw;
+        padding: 0%;
+      }
+    }
+  }
+  .group6 {
+    .one-col {
+      .icon {
+        height: 65px !important;
+      }
+    }
+  }
+  .group7 {
+    .left-col,
+    .right-col {
+        [class*='col-']{
+          @include no-padding;
+        }
+        p{
+            padding-left: 2px
+        }
+      
+    }
+  }
+}
+@include mediaSm {
+  .group1 {
+    .navbar {
+      @include navbarSmall;
+    }
+    .content .text {
+      padding-bottom: 20% !important;
+      p {
+        font-size: 16vw;
+      }
+      h3 {
+        font-size: 9vw;
+      }
+      button {
+        font-size: 5vw;
+      }
+    }
+  }
+  .group3 {
+    .col1 {
+      .icon,
+      h3 {
+        padding-bottom: 3%;
+      }
+    }
+  }
+  .group4 {
+    .one-food {
+      margin-top: 3%;
+      .info-food {
+        h4 {
+          font-size: 2.7vw;
+        }
+        p {
+          font-size: 2vw;
+        }
+      }
+    }
+  }
+  .group5 {
+    .img {
+      display: none;
+    }
+  }
+  .group6 {
+    .text {
+      height: 841px;
+      .title {
+        padding: 0 !important;
+        p {
+          font-size: 10vw;
+        }
+        h3 {
+          font-size: 7vw;
+          margin-top: -9% !important;
+        }
+      }
+      .one-col {
+        padding-bottom: 0 !important;
+      }
+    }
+  }
+  .group7 {
+    .left-col,
+    .right-col {
+        [class*='col-']{
+          @include no-padding;
+        }
+    }
+  }
+  .group8 {
+    .one-col {
+      margin-top: 5%;
+      .text {
+        .time {
+          font-size: 2.2vw;
+        }
+        .name {
+          font-size: 1.8vw;
+        }
+      }
+    }
+  }
+  .group10 {
+    .left {
+      h3 {
+        margin-bottom: 4%;
+      }
+    }
+  }
+}
+@include mediaXs {
+  .group1 {
+    height: 600px;
+    .navbar {
+      @include navbarSmall;
+    }
+
+    .text {
+      padding-bottom: 15% !important;
+      p {
+        font-size: 20vw !important;
+      }
+      h3 {
+        font-size: 12vw !important;
+      }
+      button {
+        font-size: 6vw !important;
+      }
+    }
+  }
+  .group3 {
+    .col1 {
+      padding: 5%;
+      .icon,
+      h3 {
+        padding-bottom: 2%;
+      }
+    }
+  }
+  .group4 {
+    .one-food {
+      margin-top: 3%;
+      .info-food {
+        h4 {
+          font-size: 3.7vw;
+        }
+        p {
+          font-size: 3vw;
+        }
+      }
+    }
+  }
+  .group5 {
+    .img {
+      display: none;
+    }
+  }
+  .group6 {
+    .text {
+      height: 841px;
+      .title {
+        p {
+          font-size: 10vw;
+        }
+        h3 {
+          font-size: 7vw;
+        }
+      }
+      .info-food {
+        p {
+          @include showText;
+          -webkit-line-clamp: 2;
+        }
+      }
+    }
+  }
+  .group7 {
+    .left-col,
+    .right-col {
+        [class*='col-']{
+          @include no-padding;
+        }
+    }
+  }
+  .group8 {
+    .title {
+      p {
+        font-size: 8vw;
+      }
+      h3 {
+        font-size: 5vw;
+      }
+    }
+    .one-col {
+      margin-top: 5%;
+      .text {
+        p {
+          font-size: 2.5vw;
+          margin-bottom: 0;
+        }
+        .name {
+          font-size: 2.2vw;
+        }
+        .time {
+          font-size: 2.5vw;
+          margin-bottom: 1rem;
+        }
+        .read-more {
+          margin-top: 0;
+          font-size: 2.5vw;
+        }
+      }
+    }
+  }
+  .group10 {
+    .left {
+      padding: 0px -15px !important;
+      h3 {
+        margin-bottom: 4%;
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.group10{
+    background: $backgroundOverlay2;
+    color: #2d2f2a;
+    font-family: $primary-fonts;
+    padding: 3%;
+    .left{
+        h3{
+            text-transform: uppercase;
+            font-size: 30px;
+            margin-bottom: 8%;
+            font-weight: 500;
+        }
+        p{
+            @include showText;
+            -webkit-line-clamp: 3;
+            width: auto;
+            line-height: 20pt;
+        }
+
+    }
+    .right {
+        h3 {
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-bottom: 35%;
+            font-weight: 500
+        }
+        li{
+            list-style: none;
+            padding-bottom: 10%;
+            a{
+                color: #2d2f2a;
+            }
+        }
+    }
+    
+    .bold {
+        li a{
+            font-weight: 500;
+        }
+    }
+}
+

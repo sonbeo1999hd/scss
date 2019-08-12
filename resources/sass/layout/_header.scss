@@ -1,0 +1,60 @@
+.group1 {
+  background: url(../images/header.png);
+  @include backgroundImg;
+  height: 900px;
+  font-family: $primary-fonts;
+  .navbar {
+    background: transparent;
+    padding-top: 5%;
+    transition: 0.5s ease-out;
+    a{
+      &:hover{
+        color: $colorHover;
+      }
+    }
+  }
+  .content {
+    text-align: center;
+    margin-top: 110px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    .text {
+      background: $textOverlay;
+      padding: 9% 0;
+      p {
+        font-family: "Cookie Regular";
+        font-size: 10vw;
+        color: #2c3a42;
+      }
+      h3{
+        font-size: 6vw;
+        color: $colorTextTitle2;
+        text-transform: uppercase;
+        margin-top: -6%;
+        font-family: 'Raleway Bold';
+      }
+      button{
+        @include button;
+      }
+    }
+  }
+
+  .nav-link,
+  .navbar-brand {
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-right: 30px;
+    color: #fff;
+    font-weight: bold;
+  }
+}
+.smaller {
+  padding-top: 1%!important;
+  padding-bottom: 1%!important;
+  background: #36525d!important;
+  z-index: 5;
+  width: 100%;
+  position: fixed!important;
+}
