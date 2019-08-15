@@ -11,7 +11,7 @@ Thực hiện bởi: [Nguyễn Ngọc Sơn](https://github.com/sonbeo1999hd)
 ## Liên kết
 
 - Liên kết học liệu: https://sass-lang.com/documentation
-- Liên kết bài làm online: https://sonbeo1999hd.github.io/scss/resources/index.html
+- Liên kết bài làm online: https://sonbeo1999hd.github.io/scss/public/index.html
       
 
 ## Hướng dẫn cài đặt
