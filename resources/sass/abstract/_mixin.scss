@@ -48,6 +48,7 @@
   padding-left: 0;
   padding-right: 0;
 }
+
 // media query mixin
 @mixin mediaXs {
   @media screen and (max-width: 575px) {
@@ -72,5 +73,25 @@
 @mixin mediaXl {
   @media screen and (min-width: 1200px) {
     @content;
+  }
+}
+@mixin icon-child( $color) {
+  color: $color;
+  &::before{
+    background: $color;
+  }
+}
+@keyframes hoverEffect{
+  0% {
+    left: -110%;
+    top:90%;
+  }
+  50% {
+    left:10%;
+    top: -30%;
+  }
+  100% {
+    left: -10%;
+    top: -10%;
   }
 }
