@@ -164,6 +164,9 @@
         [class*='col-']{
           @include no-padding;
         }
+        p{
+          padding-left: 10px;
+      }
     }
   }
   .group8 {
@@ -259,6 +262,10 @@
         [class*='col-']{
           @include no-padding;
         }
+        p{
+          text-align: center;
+          padding: 0;
+      }
     }
   }
   .group8 {
